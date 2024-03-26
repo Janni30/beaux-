@@ -1,0 +1,328 @@
+
+/* .logo{
+    float: left;
+    color: rgb(16, 16, 16);
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+ }
+ #jan{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    background-color:   #eee3d2;
+ }
+  ul{
+    float: left;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+ }
+  ul li{
+    display: inline;
+    float: left;
+ } 
+  ul li a{
+    color: rgb(13, 13, 13);
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+    
+ }
+  ul li a:hover{
+    border-radius: 5px;
+    box-shadow: 0 0 5px #121313;
+    color: rgb(16, 18, 18);            
+ } */
+
+ .ic{
+  position: relative;
+  cursor: pointer; 
+  width: 3%; 
+  font-size: 23px;  
+} 
+.ic:before{
+  content: attr(data-count); 
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  top: -14px;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  opacity: 0;
+}  
+.ic.Zero:before{
+  opacity: 1;
+} 
+#but{
+  padding: 8px;
+  background: blue;
+  border: none; 
+  border-radius: 8px;
+  outline: none;
+  color: #fafafa;
+  cursor: pointer;
+
+}  
+ nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 18px;
+  background-color:rgba(82, 82, 82, 0);
+  height: 60px;
+  line-height: 60px;
+  position: sticky;
+}
+.logo{
+  display: flex;
+  position: relative;
+  float: left;
+    color: rgb(16, 16, 16);
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 40px;
+    padding-top:8px;
+position: sticky;
+}
+.navItem{
+  display: flex;
+
+}
+.navItem li{
+  list-style: none;
+  margin: 0 15px;
+  padding-top: 10px;
+}
+.navItem li a{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(214, 75, 75);
+  cursor: pointer;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navItem li:hover a{
+  color:rgb(233, 145, 14);
+  box-shadow: 0 0 5px #121313;
+  color: rgb(16, 18, 18); 
+}
+.logo:hover,a:hover{
+  color:#f7f3f5;
+}
+@media only screen and (max-width:1250px){
+  .navItem{
+      padding-left: 30px;
+      padding-right: 20px;
+  }
+  .navItem li a{
+      font-size: 15px;
+  }
+}
+@media only screen and (max-width:1250px){
+  .navItem{
+      padding-left: 30px;
+      padding-right: 20px;
+  }
+  .navItem li a{
+      font-size: 15px;
+  }
+}
+@media only screen and (max-width:900px) {   
+  .h{
+      display: block;
+      cursor: pointer;
+      padding-top: 40px;
+  }
+  .h .line{
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin: 7px 0;
+  }
+  .h .line:hover{
+      background-color:white;
+  }
+  .navItem.active{
+     opacity: 1;
+  }
+  .navItem{
+      display: block;
+      position: absolute;
+      top:30px;
+      left: 0;
+      right: 0;
+      background-color:rgba(82, 82, 82, 0);
+      transition: 0.5s;
+      text-align: right;
+      opacity: 0;
+      overflow: hidden;
+      position: sticky;
+  }
+  .navItem li a{
+      margin-bottom: 12px;
+
+  }
+  .navItem li{
+    padding-top: px;
+  }
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  text-align: center;
+}
+.content h1{
+  font-size: 60px;
+  color: white;
+}
+
+
+ .carousel-item {
+    height: 550px;
+  }
+  #cad{
+    filter: drop-shadow(5px 5px 5px black);
+  }
+  img:hover{
+    transform: scale(1.10);
+}
+#im{
+     filter: drop-shadow(5px 5px 5px black);
+}
+  #item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+  #caro{
+    font-size: 50px;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.886);
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #carou{
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.886);
+    font-size: 40px;
+    margin-bottom:150px ;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #ca{
+    margin-bottom:150px ;
+    font-size: 25px;
+  color: #121313;
+  text-shadow: 2px 1px rgba(0, 0, 0, 0.886);
+  text-decoration: none;
+
+  }
+  #paragraph{
+    margin-bottom: 200px;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  #heading{
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+#Customer{
+    margin-bottom: 20px;
+}
+#wh{
+    font-weight: 800;
+    letter-spacing: .005em;
+    font-family: Mont,Gotham,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#very{
+    font-weight: 600;
+    letter-spacing: .005em;
+    font-family: Mont,Gotham,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: justify;
+}
+#gu{
+    font-size: calc(1.425rem + 2.1vw);
+    font-family: Mont,Gotham,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+}
+#bu{
+    font-family: Gotham,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 1.313rem;
+}
+
+#ea{
+    font-weight: 500;
+}
+#su{
+    color: rgb(11, 10, 10);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: Mont,Gotham,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#en{
+    color: white;
+    font-size: .875em;
+}
+button{
+    color: white;
+    border-color: #25282a;
+    background-color: #25282a;
+    border-radius: 0;
+    border-width: 2px;
+    border-style: solid;
+    min-height: 40px;
+    font-family: Gotham,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+ 
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .875rem;
+    padding: 8px 35px;
+    letter-spacing: 1.5px;
+  
+}
+form{
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+#ou{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+}
+#wi{
+    text-align: justify;
+    
+    font-size: large;
+    font-weight: 400;
+    line-height: 35px;
+}
+@media only screen and (max-width: 500px){
+    #me{
+        width: 390px;
+    }
+}
+h1{
+  text-shadow:2px 1px black;
+}
+h2{
+  text-shadow:2px 1px black;
+}5
